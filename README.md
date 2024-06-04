@@ -14,3 +14,9 @@ Daha sonra ses ve müzikleri bağlayın ve artık kullanıma hazırdır.
 
 ![Ekran görüntüsü 2024-06-05 000004](https://github.com/Florianus04/AudioManager/assets/101597266/b4f5f266-96e1-4abe-bc2c-16cc30650c19)
 
+Aşağıda örnek bir kullanım videosu paylaştım.
+
+İyi çalışmalar.
+
+https://github.com/Florianus04/AudioManager/assets/101597266/ba30afcc-e5a7-446b-a9d7-15ea40d4be26
+
