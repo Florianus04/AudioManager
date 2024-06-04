@@ -12,8 +12,6 @@ Daha sonra yukardaki masterOutput ve sfxOutput referanslarına eklediğiniz 2 Au
 Sliderlar ise ses seviyelerini manuel olarak değiştirmek içindir isteğe bağlı kod ile de değiştirilebilir.
 Daha sonra ses ve müzikleri bağlayın ve artık kullanıma hazırdır.
 
-![Ekran görüntüsü 2024-06-05 000004](https://github.com/Florianus04/AudioManager/assets/101597266/b4f5f266-96e1-4abe-bc2c-16cc30650c19)
-
 Aşağıda örnek bir kullanım videosu paylaştım.
 
 İyi çalışmalar.
