@@ -6,6 +6,40 @@ using DG.Tweening;
 
 public class AudioManager : MonoBehaviour
 {
+    //singleton instance
+    private static AudioManager _instance;
+
+    public static AudioManager Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindObjectOfType<AudioManager>();
+
+                if (_instance == null)
+                {
+                    GameObject singletonObject = new GameObject();
+                    _instance = singletonObject.AddComponent<AudioManager>();
+                    singletonObject.name = typeof(AudioManager).ToString() + " (Singleton)";
+                }
+            }
+            return _instance;
+        }
+    }
+
+    private void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (_instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
     [Header("Outputs")]
     public AudioSource masterOutput;//muzik
     public AudioSource sfxOutput;//ses efektleri
